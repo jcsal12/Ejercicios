@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Ejercicio1 from "./components/Ejercicio1";
+import Ejercicio2Binario from "./components/Ejercicio2Binario";
+import Ejercicio2Lineal from "./components/Ejercicio2Lineal";
+import Ejercicio3 from "./components/Ejercicio3";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Ejercicio1></Ejercicio1>
+      <Ejercicio2Lineal></Ejercicio2Lineal>
+      <Ejercicio2Binario></Ejercicio2Binario>
+      <Ejercicio3></Ejercicio3>
     </div>
   );
 }
